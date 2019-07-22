@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\1-Domain\DeOlho.Templates.Domain.csproj" />
+    <ProjectReference Include="..\2-Infrastructure\DeOlho.Templates.Infrastructure.csproj" />
+    <ProjectReference Include="..\3-DataContract\DeOlho.Templates.DataContract.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mediatr" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="2.2.0" />
+    <PackageReference Include="rawrabbit.vnext" Version="1.10.4" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
